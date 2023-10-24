@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3 - Design a Card</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #313131
+        }
+
+        .container {
+            width: 500px;
+            background-color: #e2e2e2;
+            border-radius: 30px;
+            border: 5px solid #4a4a4a;
+            position: relative;
+            margin: auto;
+            box-shadow: 0px 0px 18px 0px #00000075;
+        }
+
+        img {
+            position: relative;
+            width: 95%;
+            padding: 12px;
+            border-radius: 30px;
+        }
+
+        p {
+            font-size: 20px;
+            color: #555555;
+        }
+
+        h1 {
+            color: #e10600;
+        }
+
+        .tags {
+            outline: 1px solid black;
+            outline-offset: 2px;
+            border-radius: 100px;
+            margin-left: 30px;
+            padding: 0px 5px;
+            font-weight: 700;
+            color: #797979;
+            outline-color: #9e9e9e;
+            outline-width: 2px;
+        }
+
+        .pad {
+            padding: 10px 20px;
+            margin: 0;
+        }
+
+        .foot {
+            text-align: center;
+            margin: 40px 50px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .more {
+            background-color: #64c6fa48;
+            color: #01679e;
+            font-weight: bold;
+            border-radius: 100px;
+            padding: 15px 30px;            
+        }
+
+        .more:hover{
+            background-color: #25b3ff65;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxdesign container">
+        <img src="https://img.freepik.com/free-vector/formula-1-racing-car-finish-line-with-flat-design_23-2147877373.jpg?w=826&t=st=1698161299~exp=1698161899~hmac=1592bb4a99f7228f83fe455ee399058d1d9722c1c182f613d18c000d8c8d80c1"
+            alt="">
+
+        <div class="pad">
+            <span class="tags">
+                Motorsport
+            </span>
+            <span class="tags">
+                F1
+            </span>
+        </div>
+
+        <h1 class="pad">
+            Formula 1
+        </h1>
+
+        <p class="pad">
+            Formula One (also known as F1) is the highest class of international racing for open-wheel single-seater
+            formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA).
+        </p>
+        <div class="foot">
+            <a href="https://www.formula1.com/en/page.what-is-f1.html" target="_blank" class="more">Read More</a>
+        </div>
+    </div>
+</body>
+
+</html>
