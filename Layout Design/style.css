@@ -1,0 +1,141 @@
+:root {
+  --bodybg: #ffffff;
+  --mainfg: #ffff;
+  --navbg: #646f77cc;
+  --secbg: #d0eee2;
+  --pillbg:#ffd9c9;
+  --footbg: #17251e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--bodybg);
+}
+
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--navbg);
+}
+
+.navbar svg {
+  margin: 5px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar ul li {
+  padding-left: 30px;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--mainfg);
+}
+
+.nav-links:hover {
+  color: #e96228;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 100px 0 100px 0;
+  background-color: var(--secbg);
+}
+
+.showcase {
+  margin: 80px;
+  object-fit: cover;
+  width: 700px;
+  height: 500px;
+  box-shadow: 0px 0px 20px 2px rgb(16, 29, 16);
+  border-radius: 10px;
+}
+
+.big-pill {
+  size: 100%;
+  margin: 80px 90px 50px 90px;
+  background-color: var(--pillbg);
+  border-radius: 50px;
+}
+
+.big-pill-text {
+  padding: 25px;
+  font-size: 50px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--footbg);
+  width: 100%;
+}
+
+.foot-container {
+  padding: 50px 100px 50px 1000px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foot-items {
+  list-style-type: None;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #b0ccc1;
+}
+
+.foot-items li {
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.foot-items li a {
+  font-weight: 500;
+  color: var(--mainfg);
+  text-decoration: none;
+}
+
+.foot-items li a:hover {
+  color: #e29c39;
+}
+
+.foot-items:last-child h3{
+  margin-left: 15px;
+}
+
+.foot-items:last-child a {
+  margin: 0 10px;
+}
+
+svg:hover>path {
+  stroke: #e29c39;
+}
+
+.goto {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
